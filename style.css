@@ -1,0 +1,54 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-bar:hover{
+    color: gray;
+}
+
+.photo{
+    display: flex;
+    justify-content:center;
+}
+
+.stick{
+    border-right: 1px solid gray;
+}
+
+footer{
+    background-color:#f1ece1;
+    text-color : #555;
+}
+
+.first-line{
+    border-bottom : 1px solid #555;
+}
+
+.second-line a {
+ color: #555;
+ text-decoration: none;
+}
+
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.third-line{
+    display:none;
+}
+
+@media screen and (max-width:48rem) {
+    .third-line{
+        display:block;
+        text-color : #555;
+    }
+}
